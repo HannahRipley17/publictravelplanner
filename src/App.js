@@ -14,7 +14,6 @@ import Notes from './containers/Notes/Notes';
 import PackingList from './containers/PackingList/PackingList';
 import ToDoList from './containers/ToDoList/ToDoList';
 import Nav from './components/Nav/Nav';
-import Welcome from './components/UI/Welcome/Welcome';
 
 
 // TODO
@@ -27,12 +26,7 @@ import Welcome from './components/UI/Welcome/Welcome';
 // 7826 lines of code :)
 
 const App = (props) => {
-    //const [ready, setReady] = useState(false);
-    // const [body, setBody] = useState(
-    //   <div className="WelcomeScreen">
-    //     <h2>Welcome</h2>
-    //   </div>
-    // );
+    const [ready, setReady] = useState(false);
 
     useEffect(() => {
       props.onFetchNotes();
@@ -40,13 +34,14 @@ const App = (props) => {
       props.onFetchTransits();
   }, []);
 
-  //console.log(ready);
-  
-  // let welcome = (
-  //   <Welcome />
-  //   );
-    
-  
+  setTimeout(() => { setReady(true); }, 3000);
+
+  let welcome = (
+    <div className="WelcomeScreen">
+        <h2>Welcome</h2>
+    </div>
+  )
+
 
   let body = (
     <div>
@@ -64,12 +59,10 @@ const App = (props) => {
     </div>
   )
 
-  // setTimeout(() => { setReady(true); }, 3000);
 
   return (
     <div className="body">
-      <Welcome />
-      {body}
+      {ready ? body : welcome}
     </div>
   );
 }

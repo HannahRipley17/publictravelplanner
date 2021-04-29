@@ -1,3 +1,22 @@
+# Travel Planner - Senior Project
+https://publicplanner.hannahripley.com
+
+I made this travel planner as my senior project for my Web Development degree. It is built entirely in ReactJS, using quite a lot of components and JSX. It also uses Redux for state management and a couple libraries such as MomentJS and ChartJS for making things work a little easier.
+
+This travel planner has two main features - the itinerary and the budgeter. The itinerary is organized by 'event' instead of by day. An event is either a city or a transit. A city, for example could be 'Paris' and would also include information such as date of arrival, how many days, and cost per day. A transit could be a 'Flight' and includes the starting point, destination, date, time, and price.
+
+The budgeter takes all the cost information from the itinerary and builds a budget. You can then put in money actually spent and see in what areas you are above or below budget. There is also a chart that will give you a breakdown of where money is spent. 
+
+The other features are tickets, to-do list, packing list, and the homepage, which has a quick glance of other features.
+
+![Screenshot of home page](https://github.com/HannahRipley17/publictravelplanner/blob/main/public/screenshothome.png?raw=true)
+![Screenshot of itinerary](https://github.com/HannahRipley17/publictravelplanner/blob/main/public/screenshotitinerary.png?raw=true)
+![Screenshot of budgeter](https://github.com/HannahRipley17/publictravelplanner/blob/main/public/screenshotbudgeter.png?raw=true)
+![Screenshot of tickets](https://github.com/HannahRipley17/publictravelplanner/blob/main/public/screenshottickets.png?raw=true)
+
+
+
+# REACT INFORMATION
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
