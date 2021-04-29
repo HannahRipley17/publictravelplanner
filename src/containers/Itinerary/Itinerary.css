@@ -1,0 +1,103 @@
+.ItineraryEventTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ItineraryEventName {
+    color: #213657;
+    font-size: 27px;
+    font-family: RalewayMedium;
+    margin: 0px 25px 0px 0px;
+    display: inline;
+}
+
+.ItineraryEventHeaderInfo {
+    color: #213657;
+    font-size: 18px;
+    font-family: RalewayLightItalic;
+    margin-top: 5px;
+}
+
+.eventExpanded {
+    margin-left: 25px;
+    font-family: RalewayLight;
+    font-size: 21px;
+}
+
+.ItineraryEventBody {
+    margin-left: 25px;
+}
+
+.ItineraryTransitFromTo {
+    font-size: 20px;
+    color: #213657;
+    font-family: RalewayLightItalic;
+    margin: 0px 10px 0px 0px;
+
+}
+
+.ItineraryEventDetailsHeader {
+    font-family: RalewayMedium;
+    font-size: 23px;
+    color: #213657;
+    margin-bottom: 5px;
+}
+
+.ItineraryEventDetailsHeaderAvg {
+    font-size: 18px;
+    font-family: RalewayLight;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.costsExpanded, .ThingToDo {
+    margin-left: 25px;
+    font-family: RalewayLight;
+    font-size: 21px;
+}
+
+.itinerarythingtitleinput {
+    width: 60%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.itinerarythingcostinput {
+    width: 30%;
+    height: 30px;
+    margin-left: 5%;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.itineraryeditlabelandinput, .itinerarythingtitleandcost {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px auto;
+    width: 95%;
+}
+
+.itineraryeditinput {
+    height: 30px;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+.itineraryeditlabel {
+    font-family: Raleway;
+    font-size: 21px;
+    width: 25%;
+}
+
+.ItineraryEditNote {
+    width: 95;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,85 @@
+.Ticket {
+    width: 100%;
+    box-sizing: border-box;
+    border: .25px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-shadow: 3px 3px #D6D6D6;
+    margin-bottom: 25px;
+}
+
+.Ticket p:not(.TicketEmphasized, .delete) {
+    margin: 5px;
+    font-size: 18px;
+    color: #454545;
+    font-weight: 200;
+}
+
+.TicketH4 {
+    color: #234871;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: RalewayMedium;
+    cursor: pointer;
+}
+
+.TicketP {
+    margin: 5px;
+    font-size: 18px;
+    color: #454545;
+    font-weight: 200;
+}
+
+.TicketEmphasized{
+    font-size: 22px;
+    color: #234871;
+    font-family: RalewaySemiBold;
+    margin: 5px;
+}
+
+.TicketTransInfo {
+    width: 325px;
+    box-sizing: border-box;
+    border: .25px solid #D6D6D6;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-shadow: 3px 3px #D6D6D6;
+    margin-bottom: 25px;
+}
+
+.TicketTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.TicketTop img {
+    width: 40%;
+    height: 40%;
+}
+
+.TicketTo, .TicketArrival {
+    text-align: right;
+}
+
+.TicketHr {
+    width: 85%;
+}
+
+.TicketMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.TicketBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TicketLightgrey{
+    color: #707070;
+}

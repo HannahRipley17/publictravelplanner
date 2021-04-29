@@ -1,0 +1,53 @@
+.navUl {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.listItem {
+    list-style-type: none;
+}
+
+.NavLink {
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    line-height: 1.75;
+}
+
+.SideDrawer {
+    display: flex;
+    position: fixed;
+    width: 225px;
+    max-width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background-color: #234871;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    box-shadow: -10px 0px 75px black;
+    transition: transform 0.3s ease-out;
+}
+
+.togglebtn {
+    position: relative;
+    height: auto;
+    width: 50px;
+    right: 20px;
+    top: 25px;
+    z-index: 3;
+}
+
+.displayNone {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}

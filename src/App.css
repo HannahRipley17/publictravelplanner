@@ -1,0 +1,98 @@
+:root {
+    --mydarkblue: #234871;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./components/UI/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: RalewayLight;
+    src: url(./components/UI/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: RalewaySemibold;
+    src: url(./components/UI/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: RalewayMedium;
+    src: url(./components/UI/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: RalewayMediumItalic;
+    src: url(./components/UI/Raleway-MediumItalic.ttf);
+}
+@font-face {
+    font-family: RalewayLightItalic;
+    src: url(./components/UI/Raleway-LightItalic.ttf);
+}
+@font-face {
+    font-family: RalewaySemiboldItalic;
+    src: url(./components/UI/Raleway-SemiBoldItalic.ttf);
+}
+
+.body {
+    margin: 0px 15px 50px 15px;
+    font-family: Raleway;
+}
+
+.topheaders {
+    font-size: 28px;
+    color: #454545;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.save {
+    display: flex;
+    width: auto;
+    margin: 10px 20px;
+    color: #213657;
+    cursor: pointer;
+    font-size: 27px;
+    font-family: RalewaySemibold;
+    justify-content: flex-end;
+}
+
+.delete {
+    display: inline;
+    color: #802020;
+    font-style: italic;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+@keyframes welcomebackground {
+    0%   {opacity: 100%;}
+    25%  {opacity: 100%;}
+    50%  {opacity: 100%;}
+    75%  {opacity: 100%;}
+    100% {opacity: 40%;}
+}
+.WelcomeScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2f62b5;
+    color: white;
+    font-size: 28px;
+    animation-name: welcomebackground;
+    animation-duration: 3s
+}
+
+@keyframes welcome {
+    from {color: #2f62b5;}
+    to {color: white;}
+}
+
+.WelcomeScreen h2 {
+    animation-name: welcome;
+    animation-duration: 1s
+
+}

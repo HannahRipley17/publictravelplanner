@@ -1,0 +1,82 @@
+.HomePageButtonsDiv {
+    display: flex;
+    margin: 25px auto;
+    justify-content: space-between;
+    width: 97%;
+}
+.HomePageButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 95px;
+    width: 95px;
+    border: .25px solid #D6D6D6;
+    border-radius: 10px;
+    color: #454545;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: RalewayMedium;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 3px 3px #d6d6d6;
+}
+
+.HomePageButtons img {
+    width: 90%;
+    margin-bottom: 10px
+}
+
+.HomePageLinkHeader {
+    font-size: 24px;
+    font-family: RalewayMedium;
+    color: #213657;
+    text-decoration: none;
+}
+
+.HomePageBudgeter {
+    margin-bottom: 25px;
+}
+
+.HomePageBudgeter p {
+    font-family: Raleway;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #454545;
+    font-style: italic;
+
+}
+
+.HomePageBudgeter p span {
+    font-family: RalewayMedium;
+    font-style: normal;
+}
+
+.HomePageItinerary {
+    margin-bottom: 25px;
+}
+
+.HomePageItineraryHeaders {
+    color: #213657;
+    font-size: 24px;
+    font-family: RalewayMedium;
+    margin: 0px 25px 0px 0px;
+    display: inline;
+}
+
+.HomePageItineraryTopLineInfo {
+    display: inline;
+    font-size: 20px;
+    color: #213657;
+    font-family: RalewayLightItalic;
+    margin: 0px 10px 0px 0px;
+}
+
+.HomePageItineraryEventHeaderInfo {
+    color: #213657;
+    font-size: 18px;
+    font-family: RalewayLightItalic;
+    margin-top: 5px;
+}

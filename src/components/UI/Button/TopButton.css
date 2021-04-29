@@ -1,0 +1,17 @@
+.TopButton {
+    background-color: #234871;
+    color: white;
+    font-size: 14px;
+    width: 44%;
+    height: auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3%;
+    font-family: RalewaySemibold;
+}
+
+.TopButton:focus {
+    outline: none;
+}

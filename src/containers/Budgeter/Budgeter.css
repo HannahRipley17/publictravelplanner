@@ -1,0 +1,109 @@
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.BudgeterCategoryHeader {
+    display: block;
+    color: #213657;
+    font-size: 27px;
+    font-family: RalewayMedium;
+    margin: 40px 25px 10px 0px;
+}
+
+.CategoryItemsP {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.CategoryItemsP span {
+    font-family: RalewayMedium;
+    font-size: 21px;
+    color: #454545;
+}
+.CategoryItemsP span:last-of-type {
+    width: 50px;
+    text-align: left;
+}
+
+.BudgeterCategoryTotalSpent {
+    font-family: RalewaySemiboldItalic;
+    font-size: 21px;
+    margin-bottom: 0px;
+    color: #213657;
+}
+
+.BudgeterBudgetedTotal {
+    margin: 0;
+    font-family: RalewayLightItalic;
+}
+
+.SpentCostInBudget {
+    color: green;
+}
+.colorRed {
+    color: rgb(172, 20, 20);
+}
+
+.showBudgeterAddSpent {
+    display: flex;
+    flex-direction: column;
+}
+.showBudgeterAddSpentP {
+    margin: 10px 0px;
+    display: inline;    
+}
+
+
+.BudgeterAddDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.BudgeterAddLabel {
+    width: 60%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+.BudgeterAddCost {
+    width: 30%;
+    height: 30px;
+    margin-left: 5%;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.showBudgeterEdit {
+    margin: 15px 0px;
+}
+
+
+.DonutChart {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    margin-bottom: 30px;
+}
+.DonutChart h3 {
+    font-size: 21px;
+    font-family: 'RalewayMedium';
+    grid-row: 1;
+    grid-column: 3/7;
+    text-align: center;
+}
+
+.DonutChart canvas {
+    grid-area: 1 / 1 / auto / 13;
+}
+
+.displayNone {
+    display: none;
+}

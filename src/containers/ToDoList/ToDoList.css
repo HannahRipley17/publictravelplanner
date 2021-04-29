@@ -1,0 +1,56 @@
+.Todo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.completedTodoP {
+    text-decoration: line-through;
+    font-style: italic;
+    margin: 10px 0px 10px 15px;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.TodoP {
+    margin: 10px 0px 10px 15px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+
+.CompletedTodosDivider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.CompletedTodosDivider hr {
+    width: 30%;
+}
+.CompletedTodosDivider p {
+    font-style: italic;
+}
+
+.NewTodoInput {
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.editTodoInput {
+    width: 75%;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+
+.NewTodoInput:focus, .editTodoInput:focus {
+    outline: none;
+}

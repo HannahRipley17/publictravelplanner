@@ -1,0 +1,8 @@
+.AddButton {
+    font-family: RalewayMediumItalic;
+    font-size: 20px;
+    margin-top: 0;
+    display: inline;
+    cursor: pointer;
+    color: #454545;
+}

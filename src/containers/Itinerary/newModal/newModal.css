@@ -1,0 +1,59 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px -6px 100px grey;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.itinerarymodaltop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itinerarymodalheader {
+    color: #213657;
+    display: inline;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.itineraryinput {
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.itineraryinput:focus {
+    outline: none;
+}
+
+.itinerarysave {
+    margin: 10px auto;
+    color: #213657;
+    cursor: pointer;
+    font-size: 27px;
+    font-family: RalewaySemibold;
+}
+
+.itinerarymodalexit {
+    color: #213657;
+    font-size: 25px;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

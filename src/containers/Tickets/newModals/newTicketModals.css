@@ -1,0 +1,93 @@
+.NewTicketModal {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px -6px 100px grey;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.TicketModalHeader {
+    color: #213657;
+    display: inline;
+    font-family: RalewayMedium;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.TicketInput {
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+}
+
+.TicketInput:focus {
+    outline: none;
+}
+
+.TicketHalfInputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TicketHalfInput {
+    width: 43%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+}
+
+.TicketHalfInput:focus {
+    outline: none;
+}
+
+
+.TicketThirdInputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TicketThirdInput {
+    width: 27%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+}
+
+.TicketThirdInput:focus {
+    outline: none;
+}
+
+.NewModalStartButtons {
+    background-color: #234871;
+    color: white;
+    font-size: 27px;
+    width: 75%;
+    height: auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px auto;
+    font-family: RalewaySemibold;
+}
+
+.NewModalStartButtons:focus {
+    outline: none;
+}

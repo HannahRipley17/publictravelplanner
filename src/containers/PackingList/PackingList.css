@@ -1,0 +1,56 @@
+.Pack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.PackedP {
+    text-decoration: line-through;
+    font-style: italic;
+    margin: 10px 0px 10px 15px;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.PackP {
+    margin: 10px 0px 10px 15px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+
+.PackedsDivider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.PackedsDivider hr {
+    width: 30%;
+}
+.PackedsDivider p {
+    font-style: italic;
+}
+
+.NewPackInput {
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-family: Raleway;
+
+}
+
+.editPackInput {
+    width: 75%;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 21px;
+    font-family: Raleway;
+}
+
+.NewTodoInput:focus, .editTodoInput:focus {
+    outline: none;
+}
